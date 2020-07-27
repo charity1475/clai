@@ -6,7 +6,7 @@
 #
 # Filename: docker-compose.yaml
 # Purpose: for isolated development
-# Usage: `docker-compose run clai bash -c "cd /zclai && python3 develop.py install --path /zclai && bash"`
+# Usage: `docker-compose run clai bash -c "cd /zclai && python3 develop.py install --path /clai && bash"`
 
 version: '3'
 services:
@@ -15,4 +15,4 @@ services:
       context: .
       dockerfile: Dockerfile.Dev
     volumes:
-        - .:/zclai
+        - .:/clai

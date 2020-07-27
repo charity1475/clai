@@ -31,6 +31,7 @@ SUPPORTED_SHELLS = ['bash']
 URL_BASH_PREEXEC = 'http://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh'
 BASH_PREEXEC = 'bash-preexec.sh'
 
+
 def valid_python_version():
     return sys.version_info[0] == 3 and sys.version_info[1] >= 6
 

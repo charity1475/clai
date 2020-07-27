@@ -131,4 +131,4 @@ RUN echo "export LC_ALL='en_US.utf8'" >> /root/.bashrc
 # The CMD is the default command run when the docker container is started.
 # We need to use 'basename' to determine the full jar filename since it is
 # generated with a different timestamp every time we build
-# CMD ["sudo setenforce 0 && /usr/sbin/sshd", "-D"]
+#CMD ["sudo setenforce 0 && /usr/sbin/sshd", "-D"]

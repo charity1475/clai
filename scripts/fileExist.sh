@@ -52,7 +52,6 @@ install_linux () {
     return $code
 }
 
-
 install_plugin () {
     UNAME=$(uname -s)
     if [[ "$UNAME" == "Darwin"* ]]; then
